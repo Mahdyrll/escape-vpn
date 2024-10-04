@@ -8,6 +8,7 @@ import FirstSection from './components/Home/FirstSection';
 import SecondSection from './components/Home/SecondSection';
 import OurService from './components/Home/OurService';
 import Gray from './components/Home/Gray';
+import "./App.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

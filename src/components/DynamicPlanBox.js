@@ -1,6 +1,6 @@
 import React from "react";
 import checkIcon from './icon/Group 1223.svg'
-import style from './DynamicPlanBox.css'
+import "./DynamicPlanBox.css"
 
 const DynamicPlanBox = ({ Image, Title, Features, Price}) => {
     return (
