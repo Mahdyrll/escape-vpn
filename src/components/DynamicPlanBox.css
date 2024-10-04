@@ -1,0 +1,131 @@
+.plan-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 375px) {
+    .plan-box {
+        flex-direction: column;
+    }
+
+    .ul-plan-list {
+        font-size: 17px;
+        line-height: 45px;
+        margin-top: 0%;
+    }
+
+    .plans {
+        padding-top: 50px;
+    }
+
+    .plans > p {
+        font-size: 21px;
+    }
+
+    .price-choose {
+        bottom: 7.4%;
+    }
+
+    .plan-list {
+        height: 275px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    .plans {
+        padding-top: 72px;
+    }
+
+    .plans > p {
+        font-size: 18px;
+    }
+
+    .ul-plan-list {
+        font-size: 15px;
+        line-height: 40px;    
+    }
+
+    .price-choose {
+        position: absolute;
+        bottom: 8.4%;
+    }
+}
+
+.plans {
+    width: 330px;
+    height: 678px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    background-color: #FFF;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plans:hover {
+    border-color: #F53838;
+    transition-duration: 0.3s;
+}
+
+.plans:hover > .price-choose > .choose-box > a {
+    border: 2px solid #F53838;
+    background-color: #F53838;
+    box-shadow: 0px 17px 27px 0px rgba(245, 56, 56, 0.25);
+    color: #FFF;
+    transition-duration: 0.3s;
+}
+
+.plans > p {
+    font-family: medium;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-top: 25px;
+}
+
+.plan-list {
+    width: 100%;
+    text-align: start;
+}
+
+.ul-plan-list {
+    font-family: thin;
+    list-style-type: none;
+    letter-spacing: 0em;
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-left: 0%;
+}
+
+.icon-list {
+    display: flex;
+}
+
+.price {
+    font-family: thin;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    width: 100%;
+}
+
+.choose-box > a {
+    width: 177.88px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    background-color: #FFF;
+    text-decoration: none;
+    font-family: medium;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #F53838;
+    padding: 8px 63px 8px 63px;
+}

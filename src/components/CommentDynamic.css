@@ -1,0 +1,140 @@
+.cm-section {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 41px 0px 0px 0px;
+    justify-content: space-evenly;
+    position: relative;
+    left: -4%;
+}
+
+.user-cm-section {
+    width: 403.38px;
+    height: 230px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    background-color: #FFF;
+    position: relative;
+}
+
+.user-cm-section.selected {
+    border: 2px solid #FF0000;
+    box-shadow: 0px 0px 100px 7px rgb(13, 16, 38, 0.06);
+    transition-duration: 0.3s;
+}
+
+.prof-name {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 24px 35px 0px;
+}
+
+.name-location {
+    width: auto;
+    margin: 0px 23px 0px 0px;
+
+}
+
+.name-location > p:nth-child(1) {
+    font-family: medium;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;
+    margin: 0px;
+}
+
+.name-location > p:nth-child(2) {
+    font-family: thin;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #4F5665;
+    margin: 0px;
+}
+
+.rate {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    position: absolute;
+    left: 8%;
+    top: 12.5%;
+}
+
+.rate > img {
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.rate > p {
+    display: inline-block;
+    font-family: medium;
+    font-size: 16px;
+    letter-spacing: 0em;
+    margin: 0px;
+    color: #0B132A;
+}
+
+.user-comment > p {
+    width: 330px;
+    height: 100px;
+    margin: 2px 0px 10px 45px;
+    font-family: thin;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+@media screen and (max-width: 375px) {
+    .cm-container {
+        margin-top: 3rem;
+    }
+
+    .cm-section, .signs {
+        display: none;
+    }
+
+    .cm-section-ss {
+        display: block;
+        position: relative;
+        width: 22rem;
+    }
+
+    .user-cm-section-ss {
+        border: 3px solid #DDDDDD;
+        background-color: #FFF;
+        border-radius: 15px;
+        height: 15rem;
+    }
+
+    .Comment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prof-name {
+        margin: 22px 22px 15px;
+        align-items: center;
+    }
+
+    .name-location {
+        margin-right: 20px;
+    }
+
+    .name-location > p:nth-child(1) {
+        font-size: 17px;
+    }
+
+    .rate {
+        top: 14%;
+    }
+
+    .user-comment > p {
+        margin: 0px 24px 10px 25px;
+        width: auto;
+    }
+}

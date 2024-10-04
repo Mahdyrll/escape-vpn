@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 375px) {
+  .slick-slider {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .slick-slider {
+    display: block;
+  }
+
+  .slick-prev:before, .slick-next:before {
+      font-family: 'slick';
+      font-size: 20px;
+      line-height: 1;
+      opacity: .75;
+      color: black !important;
+  }
+
+  .slick-prev
+  {
+    left: 5px;
+    z-index: 1;
+  }
+
+  .slick-next {
+    right: 5px;
+  }
+}
