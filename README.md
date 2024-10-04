@@ -1,6 +1,6 @@
 # Escape VPN
 
-this is a single page react application. i haved used both static and dynamic component in this app.
+this is a single page react application. I've had used both static and dynamic component in this app.
 
 ## Screenshots
 
