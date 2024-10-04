@@ -4,7 +4,7 @@ this is a single page react application
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./public/screencapture-localhost-3000-2024-10-04-16_39_46.png)
 
 ## 🛠 Skills
 Javascript, HTML, CSS, React JS
